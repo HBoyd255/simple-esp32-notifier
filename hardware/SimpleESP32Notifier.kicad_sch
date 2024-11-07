@@ -1510,6 +1510,10 @@
 		(uuid "593973a2-1d85-43e1-93dd-b51d2e28ab21")
 	)
 	(no_connect
+		(at 90.17 77.47)
+		(uuid "614180c7-7689-4d7f-9af0-3ce40d5c7ab2")
+	)
+	(no_connect
 		(at 90.17 85.09)
 		(uuid "72e1a80d-1e9c-4bd6-85b3-be0aaff1314a")
 	)
@@ -1608,16 +1612,6 @@
 			(type default)
 		)
 		(uuid "0d6e351c-8378-457e-8509-32d838cef186")
-	)
-	(wire
-		(pts
-			(xy 90.17 77.47) (xy 92.71 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12e3e8bd-e0ec-46cd-9f31-33689e451be8")
 	)
 	(wire
 		(pts
@@ -2975,73 +2969,6 @@
 			(project "SimpleESP32Notifier"
 				(path "/ceab11b9-b7c1-4693-af6a-2bbcb9d5be0a"
 					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 92.71 77.47 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "778b5a4c-1153-4a3c-932d-19be18749fd5")
-		(property "Reference" "#PWR011"
-			(at 88.9 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 96.52 77.4699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 92.71 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "93d7dd8a-eceb-4b2f-853e-46e725d82269")
-		)
-		(instances
-			(project "SimpleESP32Notifier"
-				(path "/ceab11b9-b7c1-4693-af6a-2bbcb9d5be0a"
-					(reference "#PWR011")
 					(unit 1)
 				)
 			)
