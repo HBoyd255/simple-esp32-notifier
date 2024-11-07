@@ -14,3 +14,9 @@ uses one GPIO pin per LED and one per button.
 
 For the ESP I am using a library by [bartloeff](https://github.com/bartloeff)
 titled [heltec_htit-wb32](https://github.com/bartloeff/heltec_htit-wb32)
+
+
+
+## Metric
+
+The board is 7cm tall and 6cm wide, with 5mm radius corners.
